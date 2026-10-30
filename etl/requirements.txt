@@ -1,0 +1,5 @@
+requests>=2.32
+pandas>=2.2
+shapely>=2.0
+pyproj>=3.6
+pytest>=8.0

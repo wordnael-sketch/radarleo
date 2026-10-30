@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RadarLeo</string>
+    <string name="carregando_base">Carregando a base de radares…</string>
+    <string name="base_de_radares">Base de radares</string>
+    <string name="atualizar_agora">Atualizar agora</string>
+    <string name="atualizando">Atualizando…</string>
+    <string name="aguardando_conexao">Aguardando conexão com a internet…</string>
+
+    <!-- Serviço de localização -->
+    <string name="canal_monitoramento">Monitoramento de radares</string>
+    <string name="canal_monitoramento_descricao">Notificação fixa enquanto o RadarLeo está acompanhando o GPS</string>
+    <string name="notificacao_titulo">RadarLeo ativo</string>
+    <string name="notificacao_texto">Monitorando radares no caminho</string>
+    <string name="parar">Parar</string>
+    <string name="iniciar">Iniciar RadarLeo</string>
+    <string name="nenhum_radar_a_frente">Nenhum radar à frente</string>
+    <string name="inativo_dica">Toque em Iniciar para monitorar os radares no caminho</string>
+    <string name="velocidade_descricao">Velocidade: %1$s km/h</string>
+
+    <!-- Abas -->
+    <string name="aba_painel">Painel</string>
+    <string name="aba_mapa">Mapa</string>
+    <string name="aba_ajustes">Ajustes</string>
+
+    <!-- Tipos de radar -->
+    <string name="tipo_fixo">Radar fixo</string>
+    <string name="tipo_semaforo">Radar de semáforo</string>
+    <string name="tipo_lombada">Lombada eletrônica</string>
+    <string name="tipo_media">Velocidade média</string>
+    <string name="tipo_desconhecido">Radar</string>
+
+    <!-- Reportar -->
+    <string name="reportar_aqui">Reportar radar aqui</string>
+    <string name="reportar_titulo">Reportar radar aqui</string>
+    <string name="reportar_com_rumo">Vai valer para quem segue no seu sentido atual (%1$s°).</string>
+    <string name="reportar_sem_rumo">Sem rumo do GPS agora (parado?): vai valer para os dois sentidos.</string>
+    <string name="reportar_limite">Limite em km/h (opcional)</string>
+    <string name="reportar_limite_invalido">Entre 20 e 130 km/h</string>
+    <string name="reportar_salvar">Salvar</string>
+    <string name="reportar_salvo">Radar salvo. O RadarLeo vai avisar dele nas próximas passagens.</string>
+    <string name="cancelar">Cancelar</string>
+
+    <!-- Mapa -->
+    <string name="mapa_aproxime">Aproxime o mapa para ver os radares</string>
+    <string name="mapa_centralizar">Centralizar na minha posição</string>
+    <string name="mapa_atribuicao">© colaboradores do OpenStreetMap</string>
+    <string name="mapa_titulo_limite">%1$s · limite %2$d km/h</string>
+    <string name="mapa_detalhe">Fontes: %1$s
+Sentido: %2$s
+Confiabilidade: %3$d%%</string>
+    <string name="mapa_dois_sentidos">os dois</string>
+    <string name="mapa_voce">Você</string>
+    <string name="fonte_osm">OpenStreetMap</string>
+    <string name="fonte_dnit">DNIT</string>
+    <string name="fonte_lai">LAI (DETRAN/DER-DF)</string>
+    <string name="fonte_manual">Manual</string>
+    <string name="fonte_usuario">Meus reportes</string>
+    <string name="fonte_antt">ANTT</string>
+
+    <!-- Configurações -->
+    <string name="cfg_alertas">Alertas</string>
+    <string name="cfg_distancias_explica">Distâncias em que a voz avisa do radar à frente.</string>
+    <string name="cfg_aviso_n">%1$dº aviso: %2$d m</string>
+    <string name="cfg_inmetro">Tolerância do Inmetro</string>
+    <string name="cfg_inmetro_explica">7 km/h até 100 km/h e 7% acima disso, como nas multas. Desligue para escolher uma porcentagem.</string>
+    <string name="cfg_tolerancia_pct">Tolerância: %1$d%% acima do limite</string>
+    <string name="cfg_som">Som</string>
+    <string name="cfg_voz">Alertas falados</string>
+    <string name="cfg_voz_explica">Desligado, o aviso vira um toque curto e o excesso de velocidade, só o bipe.</string>
+    <string name="cfg_volume">Volume da voz: %1$d%%</string>
+    <string name="cfg_testar_voz">Testar voz</string>
+    <string name="cfg_frase_teste">Radar a 300 metros, limite 60</string>
+    <string name="cfg_bolha">Bolha sobre outros apps</string>
+    <string name="cfg_bolha_mostrar">Mostrar a bolha sobre o Waze e o Maps</string>
+    <string name="cfg_bolha_sem_permissao">Falta a permissão "Sobrepor a outros apps".</string>
+    <string name="cfg_reportes">Meus reportes</string>
+    <string name="cfg_reportes_total">%1$d radares reportados</string>
+    <string name="cfg_reportes_explica">Gera um CSV no formato de data/manual/ para entrar na base pelo ETL.</string>
+    <string name="cfg_exportar">Exportar CSV</string>
+    <string name="cfg_exportado">CSV exportado</string>
+    <string name="cfg_exportar_falhou">Não foi possível gravar o CSV</string>
+
+    <!-- Bolha flutuante -->
+    <string name="bolha_possivel">Possível radar</string>
+    <string name="km_h">km/h</string>
+    <string name="bolha_descricao">Radar a %1$s, limite %2$s, sua velocidade %3$s km/h</string>
+
+    <!-- Permissões: cada uma explicada antes do pedido do sistema -->
+    <string name="perm_passo">Permissão %1$d de %2$d</string>
+    <string name="perm_continuar">Continuar</string>
+    <string name="perm_agora_nao">Agora não</string>
+    <string name="perm_abrir_config">Abrir configurações</string>
+    <string name="perm_negada_de_vez">Essa permissão foi negada e o Android não deixa perguntar de novo. Ative-a nas configurações do app e volte para cá.</string>
+
+    <string name="perm_precisa_titulo">Localização precisa</string>
+    <string name="perm_precisa_texto">O RadarLeo usa o GPS para saber onde você está, a sua velocidade e a direção em que segue, e assim avisar dos radares à frente.\n\nNa janela seguinte, escolha \"Precisa\" e \"Durante o uso do app\". Com a localização aproximada, que pode errar em até 3 km, os alertas não funcionam.\n\nSua localização não sai do celular.</string>
+
+    <string name="perm_fundo_titulo">Localização em segundo plano</string>
+    <string name="perm_fundo_texto">Para continuar avisando quando você abre o Waze, o Maps ou bloqueia a tela, o RadarLeo precisa de localização \"o tempo todo\".\n\nNa tela seguinte, escolha \"Permitir o tempo todo\" e volte.\n\nO GPS só fica ligado enquanto o RadarLeo estiver ativo, sempre com a notificação fixa à vista.</string>
+
+    <string name="perm_notif_titulo">Notificações</string>
+    <string name="perm_notif_texto">A notificação fixa \"RadarLeo ativo\" mostra que o monitoramento está ligado e permite parar com um toque.\n\nSem esta permissão o Android esconde a notificação, mas o RadarLeo continua funcionando.</string>
+
+    <string name="perm_sobrepor_titulo">Mostrar sobre outros apps</string>
+    <string name="perm_sobrepor_texto">Para mostrar a bolha com o próximo radar por cima do Waze ou do Maps, o Android exige a permissão \"Sobrepor a outros apps\".\n\nVocê será levado às configurações: ative a chave do RadarLeo e volte.</string>
+</resources>

@@ -1,0 +1,6 @@
+id,latitude,longitude,tipo,limite_kmh,direcao_graus,confiabilidade,esperado
+teste-r1,-15.7800538,-47.8665237,FIXO,60,90.0,90,"Radar a 500 metros, limite 60 / Radar a 300 metros, limite 60 / Radar a 100 metros, limite 60"
+teste-r2,-15.7798916,-47.8590474,FIXO,60,270.0,90,"nenhum alerta"
+teste-r3,-15.7800528,-47.8515710,SEMAFORO,,,90,"Radar de semáforo a 500 metros / Radar de semáforo a 300 metros / Radar de semáforo a 100 metros"
+teste-r4,-15.7728036,-47.8459077,LOMBADA,40,0.0,90,"Lombada eletrônica a 500 metros, limite 40 / Lombada eletrônica a 300 metros, limite 40 / Lombada eletrônica a 100 metros, limite 40 + Reduza"
+teste-r5,-15.7656091,-47.8459077,FIXO,,10.0,50,"Possível radar a 300 metros"

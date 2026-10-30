@@ -1,0 +1,18 @@
+# Python
+etl/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+*.keystore
+*.jks
+.idea/
+*.iml
+
+# Saída dos roteiros de teste (logcat, fotos)
+testes/saida/

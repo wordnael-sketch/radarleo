@@ -1,0 +1,4 @@
+latitude,longitude,tipo,limite_kmh,direcao_graus,rodovia,km,fonte,observacao
+-15.793889,-47.882778,FIXO,60,180,,,MANUAL,exemplo: radar fixo fiscalizando quem segue para o sul
+-15.801200,-47.902100,SEMAFORO,,,,,MANUAL,exemplo: avanço de sinal nos dois sentidos (direção vazia)
+-15.850000,-48.010000,LOMBADA,40,90,DF-085,12.5,LAI_DER_DF,exemplo: linha vinda de resposta de LAI do DER-DF
